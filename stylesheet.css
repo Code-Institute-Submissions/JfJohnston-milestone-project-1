@@ -1,0 +1,90 @@
+
+/*----- google fonts 
+font-family: 'Mali', cursive;
+font-family: 'Lobster', cursive;
+-----*/
+
+/*--------------------------------------- Colors */
+
+.bg-color-link-home{
+    background-color: #700d0d;
+}
+
+.bg-color-link-players{
+    background-color: rgb(136, 127, 255)
+}
+
+.bg-color-link-characters{
+    background-color: #ff303f;
+}
+
+.bg-color-link-subscribe{
+    background-color: #7d5bbe;
+}
+
+/* ----------------------------------------------- Header */
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    background-color: #afafaf;
+    height:300px;
+}
+
+.header-logo-image{
+    background: url("./Assets/images/title-header.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding:0;
+    height: 300px; 
+    background-position: center;
+}
+
+.nav-item{
+    height:150px;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #ffffff;
+    height: 150px;
+    margin:0;
+}
+
+.nav-item a i{
+    padding-top: 32px;
+    display: block;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.nav-item span{
+    display:block;
+    font-size: 18px;
+    widows: 100%;
+    padding-top:12px;
+    font-family: 'mali', cursive;
+}
+
+
+
+/* -------------------------------------------- bootstrap fixes */
+
+.list-inline-item:not(:last-child){
+    margin:0;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right:0;
+}
+
+ul{
+    padding-inline-start: 0;
+}
