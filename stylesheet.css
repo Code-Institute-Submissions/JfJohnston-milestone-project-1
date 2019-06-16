@@ -4,6 +4,13 @@ font-family: 'Mali', cursive;
 font-family: 'Lobster', cursive;
 -----*/
 
+/*------------------------------------- font added */
+
+@font-face {
+    font-family: "Old London";
+    src: url("./Assets/fonts/OldLondon.ttf");
+    }
+
 /*--------------------------------------- Colors */
 
 .bg-color-link-home{
@@ -20,6 +27,12 @@ font-family: 'Lobster', cursive;
 
 .bg-color-link-subscribe{
     background-color: #7d5bbe;
+}
+
+/* ----------------------------------------------- fonts */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Old London', cursive;
 }
 
 /* ----------------------------------------------- Header */
@@ -67,10 +80,10 @@ header {
 
 .nav-item span{
     display:block;
-    font-size: 18px;
-    widows: 100%;
+    font-size: 35px;
+    width: 100%;
     padding-top:12px;
-    font-family: 'mali', cursive;
+    font-family: 'old london', cursive;
 }
 
 /*--------------------------------------------- footer*/
@@ -100,7 +113,7 @@ footer{
 }
 
 .footer-social-links {
-    font-family: 'lobster', cursive;
+    font-family: 'old london', cursive;
     font-size: 10pt;
     text-align: center;
     text-decoration: none;
