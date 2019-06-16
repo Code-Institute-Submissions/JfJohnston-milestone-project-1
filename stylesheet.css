@@ -81,7 +81,6 @@ header {
 .nav-item span{
     display:block;
     font-size: 35px;
-    width: 100%;
     padding-top:12px;
     font-family: 'old london', cursive;
 }
@@ -126,6 +125,21 @@ footer{
     letter-spacing: 5px;
 }
 
+
+/* -------------------------------------------- main & aside */
+
+.section-title h2 {
+    text-align: center;
+    font-size: 30pt;
+
+}
+
+/* -------------------------------------------- index main & aside*/
+
+.aside-timeline {
+    background-color: #700d0d;
+}
+
 /* -------------------------------------------- bootstrap fixes */
 
 .list-inline-item:not(:last-child){
@@ -137,8 +151,9 @@ footer{
     padding-right:0;
 }
 
-ul{
+.list-inline-block{
     padding-inline-start: 0;
+    margin-bottom: 0px
 }
 
 /* ------------------------------------------- hover.css fixes */
