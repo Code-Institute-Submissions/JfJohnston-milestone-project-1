@@ -140,6 +140,23 @@ footer{
     background-color: #700d0d;
 }
 
+.index-main{
+    background-color: #faffaf;
+    color: #000000;
+}
+
+.index-main h3{
+    text-align: center;
+    font-size: 24pt;
+}
+
+.index-main p{
+    font-family: 'mali', cursive;
+    padding-left: 10px;
+    Padding-right: 10px;
+    font-size: 18pt;
+}
+
 /* -------------------------------------------- bootstrap fixes */
 
 .list-inline-item:not(:last-child){
