@@ -18,15 +18,15 @@ font-family: 'Lobster', cursive;
 }
 
 .bg-color-link-players{
-    background-color: rgb(136, 127, 255)
+    background-color: #433ba5;
 }
 
 .bg-color-link-characters{
-    background-color: #ff303f;
+    background-color: #23752c;
 }
 
 .bg-color-link-subscribe{
-    background-color: #7d5bbe;
+    background-color: #86268e;
 }
 
 /* ----------------------------------------------- fonts */
@@ -43,7 +43,7 @@ header {
 }
 
 .header-logo {
-    background-color: #afafaf;
+    background-color: #737070;
     height:300px;
 }
 
@@ -91,9 +91,9 @@ footer{
     position:fixed;
     bottom:0;
     left: 0;
-    right: 0;
+    right:0;
     height: 75px;
-    background-color: rgb(107, 102, 102);
+    background-color: #737070;
 }
 
 .copyright{
@@ -134,6 +134,12 @@ footer{
 
 }
 
+main{
+    margin-bottom: 75px;
+    background-color: #f4f7c34f;
+    color: #000000;
+}
+
 /* -------------------------------------------- index main & aside*/
 
 .aside-timeline {
@@ -141,8 +147,10 @@ footer{
 }
 
 .index-main{
-    background-color: #faffaf;
-    color: #000000;
+    background-image: url("./assets/images/dublin-map-transparent.png");
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .index-main h3{
