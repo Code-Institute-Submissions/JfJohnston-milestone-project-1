@@ -169,6 +169,18 @@ main{
     font-size: 18pt;
 }
 
+.index-timeline-item{
+    color: #f8f413bd
+}
+
+.index-timeline-item h4{
+    color: #ffffff88;
+}
+
+.index-timeline-item p{
+    color: #ffffff;
+    font-family: 'mali', cursive;
+}
 /* -------------------------------------------- bootstrap fixes */
 
 .list-inline-item:not(:last-child){
