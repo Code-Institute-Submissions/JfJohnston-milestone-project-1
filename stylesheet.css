@@ -224,6 +224,26 @@ main{
     }
 }
 
+/* -------------------------------------------- Social Links */
+
+.sub-main h2{
+    text-align:center;
+    font-size: 75pt;
+}
+
+.social-links{
+    font-size: 100pt;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.social-links-text{
+    font-size: 25pt;
+    text-align: center;
+    text-decoration: none;
+    color: #000000
+}
+
 /* -------------------------------------------- bootstrap fixes */
 .list-inline-item:not(:last-child){
     margin:0;
