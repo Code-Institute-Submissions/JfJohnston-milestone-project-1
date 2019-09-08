@@ -188,7 +188,7 @@ main{
     font-family: 'mali', cursive;
 }
 
-/* -------------------------------------------- Characters main & asides */
+/* -------------------------------------------- Characters+players main & asides */
 
 .character-bubble {   
     display: inline-block;
@@ -201,6 +201,21 @@ main{
 
 .avatar-container{
     max-height: 300px;
+}
+
+.characters-main{
+    background-image: url("./Assets/images/fourcourts-transparent.png");
+    background-size: Cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.players-main{
+    background-image: url("./Assets/images/Train-station-transparent.png");
+    background-size: Cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
 }
 
 /* -------------------------------------------- bootstrap fixes */
