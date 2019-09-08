@@ -146,6 +146,12 @@ main{
     background-color: #700d0d;
 }
 
+@media (max-width: 768px) {
+.index-main {
+    margin-bottom: 0px;
+}
+}
+
 .index-main{
     background-image: url("./Assets/images/trinity-transparent.png");
     background-size: stretch;
