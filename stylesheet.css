@@ -215,7 +215,13 @@ main{
     background-size: Cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
+}
+
+@media (min-width: 1000px){
+    .players-main{
+    padding-bottom: 75px;
+    }
 }
 
 /* -------------------------------------------- bootstrap fixes */
