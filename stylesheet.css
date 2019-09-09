@@ -220,7 +220,10 @@ main{
 
 @media (min-width: 1000px){
     .players-main{
-    padding-bottom: 75px;
+        padding-bottom: 75px;
+    }
+    .characters-main{
+        padding-bottom: 75px;
     }
 }
 
